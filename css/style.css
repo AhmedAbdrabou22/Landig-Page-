@@ -381,3 +381,47 @@ textarea {
   align-items: center;
 }
 /*End of style section footer*/
+
+.Settings{
+  position:absolute;
+  top:5%;
+  right:5%;
+}
+.sett{
+  transform: translateX(122%);
+}
+.Settings .choice{
+  background-color: white;
+  padding:10px;
+  border-radius:10px;
+}
+.Settings i{
+  font-size: 20px;
+  animation: rot 1s infinite ease-in-out;
+}
+.Settings .choice .color1 ,.Settings .choice .color2 ,.Settings .choice .color3 ,.Settings .choice .color4{
+  width:20px;
+  height:20px;
+  border-radius: 50%;  
+}
+.Settings .choice .color1{
+  background-color: var(--aqua);
+}
+.Settings .choice .color2{
+  background-color: var(--blue);
+}
+.Settings .choice .color3{
+  background-color: var(--black);
+}
+.Settings .choice .color4{
+  background-color: var(--indigo);
+}
+@keyframes rot {
+  100%{
+    transform:rotate(360deg);
+  }
+}
+.toggle{
+  transform: translateX(50%);
+  transition: 1s all;
+}
