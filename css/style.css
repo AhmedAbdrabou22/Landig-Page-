@@ -403,6 +403,7 @@ textarea {
   width:20px;
   height:20px;
   border-radius: 50%;  
+  cursor: pointer;
 }
 .Settings .choice .color1{
   background-color: var(--aqua);
